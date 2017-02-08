@@ -1,0 +1,6 @@
+---
+applications:
+- name: dummy-keystore
+  path: build/libs/dummy-keystore.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  instances: 2

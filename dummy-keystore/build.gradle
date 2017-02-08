@@ -1,0 +1,15 @@
+apply plugin: 'spring-boot'
+
+dependencies {
+
+	compile "org.jetbrains.kotlin:kotlin-stdlib:$versions.kotlin"
+
+//	compile "org.springframework.boot:spring-boot-starter-security:$versions.springboot"
+	compile "org.springframework.boot:spring-boot-starter-web:$versions.springboot"
+	compile "org.springframework.boot:spring-boot-starter-actuator:$versions.springboot"
+
+}
+
+springBoot  {
+	buildInfo()
+}

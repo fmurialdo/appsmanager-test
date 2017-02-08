@@ -1,0 +1,14 @@
+*.ipr
+*.iws
+.idea
+build
+.gradle
+.DS_Store
+*.iml
+classes
+.env
+bin/
+.settings
+credentials.yml
+logs
+database
